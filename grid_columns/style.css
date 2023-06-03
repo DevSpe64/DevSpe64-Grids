@@ -1,0 +1,19 @@
+body{
+    background: black;
+}
+
+
+.item {
+    padding: 3rem;
+    background: rgba(255, 255, 255, 0.295);
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.grid {
+    display:  grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
